@@ -2,5 +2,6 @@
   "Title": "Unlimited Storage",
   "Description": "All industries allow for virtually unlimited storage. See https://github.com/MetalKid/MetalKid.VoxelTycoon for code.",
   "Tags": [ "Utils", "Gameplay" ],
-  "Hidden": false
+  "Hidden": false,
+  "Author": "MetalKid"
 }
