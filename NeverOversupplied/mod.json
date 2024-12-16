@@ -1,6 +1,6 @@
 {
   "Title": "Never Oversupplied Storage",
   "Description": "All industries will never go into an over supplied state. See https://github.com/MetalKid/MetalKid.VoxelTycoon for code.",
-  "Tags": [ "Util", "Gameplay" ],
+  "Tags": [ "Utils", "Gameplay" ],
   "Hidden": false
 }
