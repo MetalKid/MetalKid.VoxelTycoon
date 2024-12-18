@@ -16,7 +16,10 @@ namespace NeverOversupplied
 
         private readonly FieldInfo _oversupplyCounterField =
             _cityDemandType.GetField("_oversupplyCounter", BindingFlags.Instance | BindingFlags.NonPublic);
-        
+
+        private readonly MethodInfo _invalidatePriceMethod =
+            _cityDemandType.GetMethod("InvalidatePrice", BindingFlags.Instance | BindingFlags.NonPublic);
+
         protected override void OnGameStarted()
         {
             base.OnGameStarted();
@@ -51,6 +54,7 @@ namespace NeverOversupplied
                 {
                     var demand = city.Demands[i];
                     _oversupplyCounterField.SetValue(demand, _zeroCounter);
+                    _invalidatePriceMethod.Invoke(demand, null);
                 }
             }
         }
