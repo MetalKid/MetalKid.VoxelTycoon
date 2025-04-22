@@ -1,0 +1,7 @@
+{
+  "Title": "Infinite Conveyor",
+  "Description": "Can build a conveyor as long as you want. See https://github.com/MetalKid/MetalKid.VoxelTycoon for code.",
+  "Tags": [ "Utils", "Gameplay" ],
+  "Hidden": false,
+  "Author": "MetalKid"
+}
